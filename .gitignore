@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.so
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Pip environment files
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# SQLite database
+*.sqlite3
+
+# Django static/media files
+staticfiles/
+media/
+
+# Django migrations (optional, if you prefer to regenerate)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+# Uncomment the next line to ignore migrations (not always recommended)
+# **/migrations/*.py
+
+# Logs
+*.log
+
+# Secrets / Environment variables
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
